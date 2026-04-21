@@ -23,7 +23,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
-# --- Function Definitions (copied for self-contained app) ---
+# --- Function Definitions ---
 
 def get_stock_data(ticker_symbol):
     df = yf.download(ticker_symbol, start="2019-01-01", end="2024-01-01")
